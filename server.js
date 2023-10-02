@@ -59,9 +59,11 @@ app.post("/send", (req, res) => {
 });
 
 //Index page (static HTML)
+/*
 app.route("/").get(function (req, res) {
   res.sendFile(process.cwd() + "/public/index.html");
 });
+*/
 
 /*************************************************/
 // Express server listening...
