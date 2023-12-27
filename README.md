@@ -1,4 +1,6 @@
 # Proyecto de Envío de Correos con Express y Nodemailer
+[![cors version](https://badge.fury.io/js/cors.svg)](https://www.npmjs.com/package/cors) [![dotenv version](https://badge.fury.io/js/dotenv.svg)](https://www.npmjs.com/package/dotenv) [![express version](https://badge.fury.io/js/express.svg)](https://www.npmjs.com/package/express) [![multiparty version](https://badge.fury.io/js/multiparty.svg)](https://www.npmjs.com/package/multiparty) [![nodemailer version](https://badge.fury.io/js/nodemailer.svg)](https://www.npmjs.com/package/nodemailer) [![nodemon version](https://badge.fury.io/js/nodemon.svg)](https://www.npmjs.com/package/nodemon)
+
 
 Este proyecto utiliza Node.js con Express para crear un servidor que gestiona el envío de correos electrónicos a través de la librería Nodemailer. Además, hace uso de `multiparty` para procesar formularios y `cors` para habilitar el intercambio de recursos entre diferentes orígenes.
 
