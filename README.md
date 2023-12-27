@@ -32,9 +32,10 @@ El servidor se configura en el puerto definido por la variable de entorno `PORT`
 
 El endpoint `/send` se encarga de recibir los datos del formulario, procesarlos y enviar un correo electrónico al destinatario configurado.
 
-## Ejecución del proyecto
+## Seguridad y Protección contra Spam
 
-Para ejecutar el proyecto:
+Para mejorar la seguridad del sistema desde el lado del front-end, se recomienda implementar Recaptcha para evitar el envío de spam y mantener la integridad del formulario de contacto.
 
-1. Ejecuta `npm start` en la terminal para iniciar el servidor.
-2. Accede a la ruta `http://localhost:PORT` en tu navegador para utilizar el formulario de contacto.
+## Ubicación actual del proyecto
+
+La aplicación está actualmente alojada en Render Host.
